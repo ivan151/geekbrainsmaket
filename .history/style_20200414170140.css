@@ -763,48 +763,20 @@ letter-spacing: 1.8px;
 /* Contact Page */
 
 
-.all-addresses {
+.all-adresses {
 
     width: 1170px;
     height: 370px;
     margin: 71px 121px;
 }
-.address-box {
+.adress-box {
     width: 370px;
     height: 370px;
     float: left;
     border: 1px solid #9c9c9c;
     text-align: center;
-    margin-right: 15px;
 }
-.address-box img {
+.adress-box img {
     margin-top: 48px;
 }
 
-.address-box h4 {
-    /* Style for "California" */
-    margin-top: 34px;
-    color: #212121;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 29.88px;
-    text-transform: uppercase;
-}
-
-.title-h8 {
-    /* Style for "Phone: 190" */
-    color: #6c6c6c;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 20px;
-    margin-top: 20px;
-}
-
-.bold-contacts {
-    color: #212121;
-    font-family: "Montserrat - Bold";
-    font-weight: 700;
-
-}

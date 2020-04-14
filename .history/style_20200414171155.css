@@ -775,7 +775,6 @@ letter-spacing: 1.8px;
     float: left;
     border: 1px solid #9c9c9c;
     text-align: center;
-    margin-right: 15px;
 }
 .address-box img {
     margin-top: 48px;
@@ -806,5 +805,5 @@ letter-spacing: 1.8px;
     color: #212121;
     font-family: "Montserrat - Bold";
     font-weight: 700;
-
+    
 }

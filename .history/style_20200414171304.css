@@ -765,7 +765,7 @@ letter-spacing: 1.8px;
 
 .all-addresses {
 
-    width: 1170px;
+    width: 1175px;
     height: 370px;
     margin: 71px 121px;
 }
@@ -775,7 +775,7 @@ letter-spacing: 1.8px;
     float: left;
     border: 1px solid #9c9c9c;
     text-align: center;
-    margin-right: 15px;
+    margin-right: 30px;
 }
 .address-box img {
     margin-top: 48px;

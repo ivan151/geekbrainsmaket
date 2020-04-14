@@ -698,11 +698,12 @@ letter-spacing: 1.8px;
 
 .product-header {
     /* Style for "hero-back" */
-    width: 1170px;
+    position: relative;
+    width: 1366px;
     height: 360px;
     background-color: #f5f5f5;
-    padding-right: 98px;
-    padding-left: 98px;
+
+    margin: 0 auto;
 }
 
 
@@ -713,12 +714,16 @@ letter-spacing: 1.8px;
     font-size: 62px;
     font-weight: 100;
     line-height: 72px;
-    margin-top: 168px;
+    margin-top: 258px;
+    margin-left: 101px;
 }
 
+.product-logo {
+    margin-left: 98px;
+}
 
 .product-menu {
-    margin-right: 69px;
+    margin-right: 167px;
 }
 
 .product-all-menu {
@@ -756,55 +761,28 @@ letter-spacing: 1.8px;
     border-bottom: 3px solid #212121;
 }
 
-.products-range {
-    margin-top: 54px;
+
+
+.product-image-col {
+    padding-bottom: 30px;
+    padding-right: 30px;
 }
 
-/* Contact Page */
 
 
-.all-addresses {
-
-    width: 1170px;
-    height: 370px;
-    margin: 71px 121px;
-}
-.address-box {
-    width: 370px;
-    height: 370px;
-    float: left;
-    border: 1px solid #9c9c9c;
-    text-align: center;
-    margin-right: 15px;
-}
-.address-box img {
-    margin-top: 48px;
+.display-all-products {
+    margin-top: 50px;
+    margin-left: 98px;
+    margin-right: 98px;
+    width: 100%;
 }
 
-.address-box h4 {
-    /* Style for "California" */
-    margin-top: 34px;
-    color: #212121;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 29.88px;
-    text-transform: uppercase;
-}
-
-.title-h8 {
-    /* Style for "Phone: 190" */
-    color: #6c6c6c;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 20px;
-    margin-top: 20px;
-}
-
-.bold-contacts {
-    color: #212121;
-    font-family: "Montserrat - Bold";
-    font-weight: 700;
-
+@media screen and (max-width: 600px) {
+    .display-all-products {
+        width: 45%;
+        margin: 2% 2.5%;
+    }
+.display-all-products img {
+    margin: auto;
+    margin-top: 71px;
 }
