@@ -824,172 +824,25 @@ letter-spacing: 1.8px;
     margin-top: 63px;
 }
 
-.block-details-menu {
-    position: relative;
+.details-menu {
     width: 1366px;
     height: 70px;
     background-color: #f4f4f4;
-}
-.details-menu {
-    position: absolute;
     list-style-type: none;
-    margin: 28px 300px;
+    text-align: center;
 }
 
 .details-menu-list {
     float: left;
     /* Style for "All" */
-
-    padding-right: 47px;
-
-}
-
-.details-menu-list:last-child {
-    padding-right: 0px;
-}
-
-.details-menu-list a {
     color: #6c6c6c;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.8px;
-    text-decoration: none;
-}
-.details-menu-list a:hover {
-    color: #212121;
-    
-}
-
-.details-slider {
-    /* Style for "slider1" */
-    width: 570px;
-    height: 570px;
-    margin-left: 98px;
-    margin-top: 72px;
-    float: left;
-}
-
-.details-details {
-    width: 499px;
-    height: 552px;
-    float: right;
-    margin-right: 138px;
-    margin-top: 119px;
-}
-
-.details-title {
-    /* Style for "Fishnet Ch" */
-    color: #212121;
-    font-family: Montserrat;
-    font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.details-hotdeal {
-    /* Style for "Hot Deal" */
-    color: #e53935;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 48.02px;
-    text-transform: uppercase;
+    /* Text style for "HOME     O" */
     letter-spacing: 1.8px;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 36px;
-}
+    padding-right: 47px;
 
-.details-price {
-    /* Style for "$ 36.7/sq" */
-
-    color: #212121; 
-    font-size: 72px;
-    text-transform: uppercase;
-    font-weight: 300;
-    line-height: 48.02px;
-    text-align: center;
-    margin-bottom: 31px;
-}
-
-.details-order-us {
-    /* Style for "btn" */
-    width: 510px;
-    height: 71px;
-    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
-    border-radius: 35px;
-    background-color: #f44336;
-    margin-bottom: 49px;
-    /* Style for "Order Us" */
-
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24.01px;
-    text-transform: uppercase;
-    /* Text style for "Order Us" */
-    letter-spacing: 4.4px;
-}
-
-.details-text {
-    /* Style for "The majest" */
-    color: #212121;
-    font-family: Gotham;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24.01px;
-    letter-spacing: 0.4px;
-    text-align: center;
-}
-
-.details-small-sliders {
-    margin-left: 150px;
-
-}
-.details-small-slider {
-    /* Style for "controll" */
-    width: 70px;
-    height: 70px;
-    display: inline;
-}
-
-.clr-details {
-    height: 200px;
-}
-
-.details-footer {
-    margin-top: 800px;
-}
-
-.dollar {
-    /* Style for "$ 36.7/sq" */
-    color: #212121;
-    font-family: Gotham;
-    font-weight: 300;
-    line-height: 48.02px;
-    font-size: 48px;
-    text-transform: uppercase;
-}
-
-.number {
-    color: #212121;
-    font-family: Gotham;
-    font-weight: 300;
-    line-height: 48.02px;
-    font-size: 72px;
-    text-transform: uppercase;
-}
-
-.slash {
-/* Style for "$ 36.7/sq" */
-
-    color: #212121;
-    font-family: Gotham;
-    font-size: 36px;
-    font-weight: 300;
-    line-height: 48.02px;
-    text-transform: uppercase;
 }

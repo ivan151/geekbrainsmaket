@@ -839,7 +839,14 @@ letter-spacing: 1.8px;
 .details-menu-list {
     float: left;
     /* Style for "All" */
-
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    /* Text style for "HOME     O" */
+    letter-spacing: 1.8px;
     padding-right: 47px;
 
 }
@@ -848,24 +855,11 @@ letter-spacing: 1.8px;
     padding-right: 0px;
 }
 
-.details-menu-list a {
-    color: #6c6c6c;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1.8px;
-    text-decoration: none;
-}
-.details-menu-list a:hover {
-    color: #212121;
-    
-}
-
 .details-slider {
     /* Style for "slider1" */
     width: 570px;
     height: 570px;
+    border: 1px solid black;
     margin-left: 98px;
     margin-top: 72px;
     float: left;
@@ -874,6 +868,7 @@ letter-spacing: 1.8px;
 .details-details {
     width: 499px;
     height: 552px;
+    border: 1px solid black;
     float: right;
     margin-right: 138px;
     margin-top: 119px;
@@ -921,17 +916,6 @@ letter-spacing: 1.8px;
     box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
     border-radius: 35px;
     background-color: #f44336;
-    margin-bottom: 49px;
-    /* Style for "Order Us" */
-
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24.01px;
-    text-transform: uppercase;
-    /* Text style for "Order Us" */
-    letter-spacing: 4.4px;
 }
 
 .details-text {
@@ -943,53 +927,4 @@ letter-spacing: 1.8px;
     line-height: 24.01px;
     letter-spacing: 0.4px;
     text-align: center;
-}
-
-.details-small-sliders {
-    margin-left: 150px;
-
-}
-.details-small-slider {
-    /* Style for "controll" */
-    width: 70px;
-    height: 70px;
-    display: inline;
-}
-
-.clr-details {
-    height: 200px;
-}
-
-.details-footer {
-    margin-top: 800px;
-}
-
-.dollar {
-    /* Style for "$ 36.7/sq" */
-    color: #212121;
-    font-family: Gotham;
-    font-weight: 300;
-    line-height: 48.02px;
-    font-size: 48px;
-    text-transform: uppercase;
-}
-
-.number {
-    color: #212121;
-    font-family: Gotham;
-    font-weight: 300;
-    line-height: 48.02px;
-    font-size: 72px;
-    text-transform: uppercase;
-}
-
-.slash {
-/* Style for "$ 36.7/sq" */
-
-    color: #212121;
-    font-family: Gotham;
-    font-size: 36px;
-    font-weight: 300;
-    line-height: 48.02px;
-    text-transform: uppercase;
 }

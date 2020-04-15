@@ -839,7 +839,14 @@ letter-spacing: 1.8px;
 .details-menu-list {
     float: left;
     /* Style for "All" */
-
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    /* Text style for "HOME     O" */
+    letter-spacing: 1.8px;
     padding-right: 47px;
 
 }
@@ -848,18 +855,9 @@ letter-spacing: 1.8px;
     padding-right: 0px;
 }
 
-.details-menu-list a {
-    color: #6c6c6c;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1.8px;
-    text-decoration: none;
-}
 .details-menu-list a:hover {
     color: #212121;
-    
+    text-decoration: none;
 }
 
 .details-slider {

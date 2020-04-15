@@ -839,27 +839,20 @@ letter-spacing: 1.8px;
 .details-menu-list {
     float: left;
     /* Style for "All" */
-
-    padding-right: 47px;
-
-}
-
-.details-menu-list:last-child {
-    padding-right: 0px;
-}
-
-.details-menu-list a {
     color: #6c6c6c;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.8px;
-    text-decoration: none;
+    /* Text style for "HOME     O" */
+    letter-spacing: 1.8px;
+    padding-right: 47px;
+
 }
-.details-menu-list a:hover {
-    color: #212121;
-    
+
+.details-menu-list:last-child {
+    padding-right: 0px;
 }
 
 .details-slider {
@@ -945,51 +938,22 @@ letter-spacing: 1.8px;
     text-align: center;
 }
 
-.details-small-sliders {
-    margin-left: 150px;
-
-}
 .details-small-slider {
     /* Style for "controll" */
     width: 70px;
     height: 70px;
     display: inline;
+    margin-left: 248px;
 }
 
-.clr-details {
-    height: 200px;
+.details-small-slider:first-child {
+    margin-left: 248px;
 }
 
-.details-footer {
-    margin-top: 800px;
+.details-small-slider:nth-child(2) {
+    margin-left: 328px;
 }
 
-.dollar {
-    /* Style for "$ 36.7/sq" */
-    color: #212121;
-    font-family: Gotham;
-    font-weight: 300;
-    line-height: 48.02px;
-    font-size: 48px;
-    text-transform: uppercase;
-}
-
-.number {
-    color: #212121;
-    font-family: Gotham;
-    font-weight: 300;
-    line-height: 48.02px;
-    font-size: 72px;
-    text-transform: uppercase;
-}
-
-.slash {
-/* Style for "$ 36.7/sq" */
-
-    color: #212121;
-    font-family: Gotham;
-    font-size: 36px;
-    font-weight: 300;
-    line-height: 48.02px;
-    text-transform: uppercase;
+.details-small-slider:nth-child(3) {
+    margin-left: 408px;
 }

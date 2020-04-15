@@ -855,11 +855,10 @@ letter-spacing: 1.8px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.8px;
-    text-decoration: none;
 }
 .details-menu-list a:hover {
     color: #212121;
-    
+    text-decoration: none;
 }
 
 .details-slider {
